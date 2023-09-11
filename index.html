@@ -3,14 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Comments</title>
-    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="stylesheet" type="text/css" href="index.css"/>
 </head>
 <body>
 <div>
-    <label for="comment_input"></label><input class="input" id="comment_input" type="text" placeholder="Type your comment here.">
+    <h1>
+        Comments form
+    </h1>
+</div>
+<div class="input_section">
+    <label for="comment_input"></label>
+    <input class="input" id="comment_input" type="text"
+                                              placeholder="Type your comment here.">
     <input class="btn" id="send_btn" onclick="addComments()" type="button" value="Send">
 </div>
-<div class="output" id="comments_list"></div>
+<div class="comments-section" id="comments_list">
+</div>
 <script src="index.js"></script>
 </body>
 </html>
